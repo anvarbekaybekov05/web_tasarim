@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <b> Merhaba &nbsp;&nbsp; dunya 10 &lt 20
+       
+</b> 
+<h1>birinci dereceden ba�lik </h1>
+<h2>ikinci dereceden ba�lik</h2>
+<h3>ucuncu dereceden ba�lik</h3>
+<h6>altinci dereceden ba�lik</h6>
+</body>
+</html>
+   <b> Merhaba &nbsp;&nbsp; dunya 10 &lt 20   
+</b> ,<i>anvar</i>,<u>aybekov</u>
+ <h3>Dersler</h3>
+  <ol>
+      <li>Matamatik</li>
+      <li>Fizik</li>
+      <li>Kimya</li>
+  </ol>
+body>
+  <h3>Dersler</h3>
+  <ol type="a">
+      <li>Matamatik</li>
+      <li>Fizik</li>
+      <li>Kimya</li>
+  </ol>
+<ol type="square">
+<body>
+  <h3>Dersler</h3>
+  <ul type="square">
+      <li>Matamatik</li>
+      <li>Fizik</li>
+      <li>Kimya</li>
+  </ul>
+</body>
+<body>
+  <h3>Dersler</h3>
+  <ul type="square">
+      <li>Matamatik</li>
+      <li>Fizik</li>
+          <ol>  
+              <li>Nano fizik</li> 
+              <li>bio Fizik</li>
+          </ol>
+      <li>Kimya</li>
+  </ul>
+</body>
+<body>
+  <a hraf="�leti�im.html">�leti�im</a>
+</body>
+<body>
+  <p style="color:aquamarine;
+   background-color:blue;
+   text-indent:20px;
+   font-size: 20px;
+   text-decoration: underline;
+   text-slign:justify">
+   renk degi�tirme  </p>
+</body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       <p style="color:aquamarine;
+   background-color:blue;
+   text-indent:20px;
+   font-size: 20px;
+   text-decoration: underline;
+   text-slign:justify"></p>
+    </style>
+</head>
+<body>
+  <p style="color:aquamarine;
+   background-color:blue;
+   text-indent:20px;
+   font-size: 20px;
+   text-decoration: underline;
+   text-slign:justify">
+   renk degi�tirme  </p>
+</body>
+</html>
