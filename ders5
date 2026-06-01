@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+  <form action="giris.html" method="post">
+    Ad:<input type="text" name="ad">
+    Soyad:<input type="text" name="soyad">
+    <input type="submit" value="gonder">
+</form>  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+  <form action="giris.html" method="post">
+    Ad:<input type="text" name="ad" required maxlength="5">
+    Soyad:<input type="text" name="soyad">
+    <input type="submit" value="gonder">
+</form>  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+  <form action="giris.html" method="post">
+    Ad:<input type="text" name="ad" required maxlength="5" placeholder="adini gir yiban">
+    Soyad:<input type="text" name="soyad">
+    <input type="submit" value="gonder">
+ </form>  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+  <form action="giris.html" method="post" >
+    Ad:<input type="text" name="ad" required maxlength="5" placeholder="adini gir yiban">
+    Soyad:<input type="text" name="soyad" readonly value="Aybekov">
+    <input type="submit" value="gonder">
+ </form>  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+  <form action="giris.html" method="post" >
+    Ad:<input type="text" name="ad" required maxlength="5" placeholder="adini gir yiban">
+    Soyad:<input type="text" name="soyad" size="50">
+    <input type="submit" value="gonder">
+ </form>  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+  <form action="giris.html" method="post" >
+    sifre:<input type="password" name="sifre">
+    <br>
+    <input type="submit" value="gonder">
+ </form>  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+  <form action="giris.html" method="post" >
+  eposta:<input type="email" name="eposta">
+    <br>
+    <input type="submit" value="gonder">
+ </form>  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+  <form action="giris.html" method="get" >
+     <input type="checkbox" name="arac1">bisiklet
+     <input type="checkbox" name="arac2">skutur
+     <input type="checkbox" name="arac3">araba
+    <br>
+    <input type="submit" value="gonder">
+ </form>  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+  <form action="giris.html" method="get" >
+     <input type="checkbox" name="arac1">bisiklet
+     <input type="checkbox" name="arac2" checked>skutur
+     <input type="checkbox" name="arac3">araba
+    <br>
+    <input type="submit" value="gonder">
+ </form>  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+  <form action="giris.html" method="get" >
+     <input type="checkbox" name="arac1">bisiklet
+     <input type="checkbox" name="arac2" checked>skutur
+     <input type="checkbox" name="arac3" required>araba
+    <br>
+    <input type="submit" value="gonder">
+ </form>  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+  <form action="giris.html" method="get" >
+     cinsiyetiniz:
+     <input type="radio" name="cinsiyet" value="erkek">erkek
+     <input type="radio" name="cinsiyet" value="bayan">bayan
+   <br>
+     <input type="submit" value="gonder">
+ </form>  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+  <form  method="get" >
+     cinsiyetiniz:
+     <input type="radio" name="cinsiyet" value="erkek">erkek
+     <input type="radio" name="cinsiyet" value="bayan">bayan
+   <br>
+     <input type="submit" value="gonder" formaction="giris.html">
+ </form>  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+  <form  method="get" >
+     cinsiyetiniz:
+     <input type="radio" name="cinsiyet" value="erkek">erkek
+     <input type="radio" name="cinsiyet" value="bayan">bayan
+   <br>
+     <input type="image" src="img_submit.gif" width="30" height="30">
+ </form>  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+  <form  method="get" >
+    kullanici adi:<input type="text"> <br>
+    sifre:<input type="password"> <br>
+    <input type="submit" value="gonder">
+    <input type=" reset" value="sifirla">
+ </form>  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+  <form  method="get" >
+   telefon:<input type="tel" name="telefon" placeholder="05xx xxx xx xx">
+    <input type="submit" value="gonder">
+    <input type=" reset" value="sifirla">
+ </form>  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+  <form  method="get" >
+   dogum tarihi:<input type="date" name="tarih" min="2000-01-01" max="2010-12-31">
+    <input type="submit" value="gonder">
+    <input type=" reset" value="sifirla">
+ </form>  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+  <form  method="get" >
+   dogum tarihi:<input type="date" name="tarih" min="2000-01-01" max="2010-12-31">
+    <input type="button" value="gonder" onclick="alert('merhaba gandon')">
+    <input type=" reset" value="sifirla">
+ </form>  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+  <form  method="get" >
+  resim yukleyiniz:<input type="file" name="dosya">
+   <br>
+    <input type="button" value="gonder" onclick="alert('merhaba gandon')">
+    <input type=" reset" value="sifirla">
+ </form>  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+  <form  method="get" >
+    tuttugunuz takim:<input type="text"><br>
+    <input type="hidden" name="ulke" value="turkiye">
+   <br>
+    <input type="submit" value="gonder">
+    <input type="reset" value="sifirla">
+ </form>  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+  <form  method="get" >
+   renk seciniz:<input type="color" name="renk">
+   <br>
+    <input type="submit" value="gonder">
+    <input type="reset" value="sifirla">
+ </form>  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+  <form  method="get" >
+  sayi seciniz:<input type="number" name="sayi" min="10" max="20" step="2">
+   <br>
+    <input type="submit" value="gonder">
+    <input type="reset" value="sifirla">
+ </form>  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+  <form  method="get" >
+  sayi seciniz:<input type="number" name="sayi" min="10" max="20" step="2">
+   <br>
+   <button type="submit">Gonder</button>
+   <button type="reset">sifrla</button>
+ </form>  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+  <form  method="get" >
+  <fieldset>
+     <legend>kisisel bilgiler</legend>
+     ad:<input type="text">
+     soyad<input type="text">
+  </fieldset>
+  <fieldset>
+     <legend>ileti�im bilgileri</legend>
+     eposta:<input type="email">
+     telefon:<input type="tel">
+  </fieldset>
+ </form>  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+  <form  method="get" >
+  <select name="ulke">
+     <option value="81"> turkiye</option>
+     <option value="78"> turkmenistan</option>
+     <option value="12"> pol�a</option>
+     <option value="15"> iraq</option>
+     <option value="14"> eron</option>
+  </select>
+  <button type="submit">gonder</button>
+ </form>  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+  <form  method="get" >
+  cinsiyet:<input type="radio" value="1" name="cinsiyet" id="erkek"><label for="erkek">erkek</label>
+  <input type="radio" value="2" name="cinsiyet" id="bayan"><label for="bayan">bayan</label>
+  <button type="submit">gonder</button>
+ </form>  
+</body>
+</html>
