@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table,th,td{
+            border: 1px solid blue;
+        }
+        table{
+            width: 100%;
+          
+            border-collapse: collapse;
+        
+        }
+        th{
+            height: 10px;
+        }
+        td{
+            height: 10px;
+            padding: 5px;
+            text-align:center;
+        }
+        table#01{
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <h2> Ogrenci notlari</h2>
+    <table>
+        <tr>
+            <th> Adi</th>
+            <th>Soyadi</th > 
+            <th>Notu</th>
+            <th>   Harf notu</th>
+        </tr>
+        <tr>
+            <td>Anvarbek</td>
+            <td>Aybekov</td>
+            <td>100</td>
+            <td>AA</td>
+        </tr>
+        <tr>
+            <td>Dovlet</td>
+            <td>Seyidov</td>
+            <td>90</td>
+            <td>BA</td>
+        </tr>
+    </table>
+    <h2> Ogrenci sinavlari</h2>
+    <table id="01">
+        <tr>
+            <th> Adi</th>
+            <th>Soyadi</th > 
+            <th>Notu</th>
+            <th>   Harf notu</th>
+        </tr>
+        <tr>
+            <td>Anvarbek</td>
+            <td>Aybekov</td>
+            <td>100</td>
+            <td>AA</td>
+        </tr>
+        <tr>
+            <td>Dovlet</td>
+            <td>Seyidov</td>
+            <td>90</td>
+            <td>BA</td>
+        </tr>
+    </table>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table,th,td{
+            border: 1px solid blue;
+        }
+        table{
+            width: 100%;
+          
+            border-collapse: collapse;
+        
+        }
+        th{
+            height: 10px;
+        }
+        td{
+            height: 10px;
+            padding: 5px;
+            text-align:center;
+        }
+        table#t01{
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <h2> Ogrenci notlari</h2>
+    <table>
+        <tr>
+            <th> Adi</th>
+            <th>Soyadi</th > 
+            <th>Notu</th>
+            <th>   Harf notu</th>
+        </tr>
+        <tr>
+            <td>Anvarbek</td>
+            <td>Aybekov</td>
+            <td>100</td>
+            <td>AA</td>
+        </tr>
+        <tr>
+            <td>Dovlet</td>
+            <td>Seyidov</td>
+            <td>90</td>
+            <td>BA</td>
+        </tr>
+    </table>
+    <h2> Ogrenci sinavlari</h2>
+    <table id="t01">
+        <tr>
+            <th> Adi</th>
+            <th>Soyadi</th > 
+            <th>Notu</th>
+            <th>   Harf notu</th>
+        </tr>
+        <tr>
+            <td>Anvarbek</td>
+            <td>Aybekov</td>
+            <td>100</td>
+            <td>AA</td>
+        </tr>
+        <tr>
+            <td>Dovlet</td>
+            <td>Seyidov</td>
+            <td>90</td>
+            <td>BA</td>
+        </tr>
+    </table>
+</body>
+</html>
